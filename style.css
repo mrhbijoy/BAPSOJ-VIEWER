@@ -21,10 +21,15 @@ table {
     margin-top: 20px;
 }
 
+th {
+    text-align: center;
+}
+
 th, td {
-    border: 1px solid #ddd;
     padding: 8px;
-    text-align: left;
+    max-width: 35vh;
+    border: 1px solid #ddd;
+    justify-content: first baseline;
 }
 
 tr:nth-child(even) {

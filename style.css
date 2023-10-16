@@ -42,3 +42,7 @@ tr:nth-child(even) {
     box-sizing: border-box;
     margin-top: 10px;
 }
+
+.hidden {
+    display: none;
+}
